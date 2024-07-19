@@ -51,12 +51,14 @@ const MobileNav = () => {
                           }
                         )}
                       >
-                        <Image
-                          src={item.imgURL}
-                          alt={item.label}
-                          width={20}
-                          height={20}
-                        />
+                       {item.imgURL && (
+                <Image
+                  src={item.imgURL}
+                  alt={item.label}
+                  width={24}
+                  height={24}
+                />
+              )}
                         <p className="font-semibold">{item.label}</p>
                       </Link>
                     </SheetClose>
