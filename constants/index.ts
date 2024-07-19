@@ -18,13 +18,14 @@ export const sidebarLinks = [
   {
     imgURL: '/icons/Video.svg',
     route: '/recordings',
-    label: 'Recordings',
+    label: 'Recordings [Pro+]',
   },
   {
     imgURL: '/icons/add-personal.svg',
     route: '/personal-room',
     label: 'Personal Room',
   },
+
 ];
 
 export const avatarImages = [
