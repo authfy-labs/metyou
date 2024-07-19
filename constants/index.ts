@@ -27,7 +27,7 @@ export const sidebarLinks = [
   },
   {
     route: '/profesional-plan',
-    label: 'Subscription Plan',
+    label: 'Subscription',
   },
 
 ];
