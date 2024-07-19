@@ -59,6 +59,7 @@ const config = {
       },
       backgroundImage: {
         hero: "url('/images/hero-background.png')",
+        'gradient-to-purple': 'linear-gradient(135deg, #0D47A1, #4A148C)',
       },
     },
   },

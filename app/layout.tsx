@@ -11,7 +11,7 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MEETALK",
+  title: "HYPETALK",
   description: "Video calling App",
   icons: {
     icon: "/icons/logo.svg",
@@ -24,20 +24,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ClerkProvider
-        appearance={{
-          layout: {
-            socialButtonsVariant: "iconButton",
-          },
-          variables: {
-            colorText: "#fff",
-            colorPrimary: "#0E78F9",
-            colorBackground: "#1C1F2E",
-            colorInputBackground: "#252A41",
-            colorInputText: "#fff",
-          },
-        }}
+        // appearance={{
+        //   layout: {
+        //     socialButtonsVariant: "iconButton",
+        //   },
+        //   variables: {
+        //     colorText: "#fff",
+        //     colorPrimary: "#0E78F9",
+        //     colorBackground: "#1C1F2E",
+        //     colorInputBackground: "#252A41",
+        //     colorInputText: "#fff",
+        //   },
+        // }}
       >
-        <body className={`${inter.className} bg-dark-2`}>
+        <body className={`${inter.className} bg-gradient-to-purple`}>
           <Toaster />
           {children}
         </body>
