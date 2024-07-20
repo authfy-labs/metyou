@@ -26,7 +26,7 @@ export const sidebarLinks = [
     label: 'Personal Room',
   },
   {
-    route: '/profesional-plan',
+    route: '/subscription-plan',
     label: 'Subscription',
   },
 
@@ -46,7 +46,7 @@ export const plans = [
     title: "Free",
     storage: "5GB",
     audioQuality: "Standard",
-    price: "$0",
+    price: "Rp. 0",
     features: [
       "Basic Video Calls",
       "Standard Audio Quality",
@@ -57,7 +57,7 @@ export const plans = [
     title: "Pro",
     storage: "50GB",
     audioQuality: "High",
-    price: "$10/month",
+    price: "Rp. 15,000 /month",
     features: [
       "HD Video Calls",
       "High Audio Quality",
@@ -68,7 +68,7 @@ export const plans = [
     title: "Pro+",
     storage: "200GB",
     audioQuality: "Ultra High",
-    price: "$30/month",
+    price: "Rp. 45,000 /month",
     features: [
       "4K Video Calls",
       "Ultra High Audio Quality",
