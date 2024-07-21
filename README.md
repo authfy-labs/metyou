@@ -1,4 +1,17 @@
-add `.env` file on root `metyou/.env` with format like this :
+### 👀 Scanned By
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/summary/new_code?id=authfy-labs_metyou)
+
+-----------------------------------
+
+<div align="center">
+  <h1>MetYou</h1>
+  <h4>Welcome to MetYou, the ultimate platform designed to provide you with an effortless and efficient experience for online meetings, comprehensive subscription management, and a wide range of additional features to meet all your virtual interaction needs!</h4>
+</div>
+
+
+## 🚀 Getting Started
+
+To set up the project, add a `.env` file at the root directory (`metyou/.env`) with the following format:
 
 ```
 # clerk
@@ -12,31 +25,27 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_STREAM_API_KEY=
 STREAM_SECRET_KEY=
 ```
-
-#### new relase :
+## 🌟 Latest Release
 
 [metyou.authfy.xyz](https://metyou.authfy.xyz/)
 
-if it broke or need too long time you can acces with this :
+If you encounter any issues or delays, try our alternative access point: [metyou.vvia.xyz](https://metyou.vvia.dev/)
 
-[metyou.vvia.xyz](https://metyou.vvia.dev/)
-
-
-###### Example of MetYou :
+## ✨ Features
 
 #### Home of MetYou
 
 <img width="1440" alt="Screenshot 2024-07-20 at 12 28 28 PM" src="https://github.com/user-attachments/assets/dc7b3140-9d11-40ed-87cc-fddea8d2d441">
 
-#### Subcriptions of MetYou (u can send by Stripe or ShoopePay)
+Explore the beautifully designed homepage of MetYou.
 
 <img width="1440" alt="Screenshot 2024-07-20 at 12 30 53 PM" src="https://github.com/user-attachments/assets/b22eaca3-1a1b-4abd-9f53-4b37c98c44eb">
 
-#### Example Online Meeting on MetYou
-
-This is a sneak peek into MetYou's features but it doesn't include everything. For suscribers there is a special feature and it is being developed.
-
+Easily manage your subscriptions via Stripe or ShopeePay.
 
 https://github.com/user-attachments/assets/c9b0524f-5f13-487b-ad7c-15da28d004c3
 
-Feel free to explore my personal [repositories](https://github.com/octavvia) too and reach out if you have any questions or collaboration ideas!
+Sneak peek into our online meeting feature. Stay tuned for exclusive features available for subscribers.
+
+## 🔍 Explore More
+Check out my personal [repositories](https://github.com/octavvia) for more projects and feel free to reach out for any questions or collaboration ideas!
