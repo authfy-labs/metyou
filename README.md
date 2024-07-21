@@ -1,10 +1,14 @@
+add .env file on root `metyou/.env` with format like this :
+
 ```
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_YWN0aXZlLW1hcnRpbi0yMC5jbGVyay5hY2NvdW50cy5kZXYk
-CLERK_SECRET_KEY=sk_test_Xy0fVYF8mdrqTsdTWUYho7KWv79xJHmc2ylAhUeNCa
+# clerk
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
-NEXT_PUBLIC_STREAM_API_KEY=zk6zf3vrpq49
-STREAM_SECRET_KEY=ar5f7kj86djc3kzzd4sm3kz58kj9z53g7w45wtjrgnwkw932utudkb4nvufxm92d
+#stream
+NEXT_PUBLIC_STREAM_API_KEY=
+STREAM_SECRET_KEY=
 ```
